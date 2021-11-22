@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        .grid {
+            
+            display: flex;
+            flex-wrap: wrap;
+            border-style: solid;
+            background-color: green;
+            }
+
+            .grid div {
+            width: 20px;
+            height: 20px;
+            }
+
+            .snake {
+            background-color: yellow;
+            }
+
+            .fruit {
+            background-color: red;
+            }
+    </style>
+</head>
+<body >
+    <button class='start'>Start/Restart</button>
+    <div class='score'>Score:<span>0</span></div>
+
+    <div class="grid"></div>
+</body>
+<script src="app.js" type="text/javascript"></script>
+</html>
